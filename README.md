@@ -40,7 +40,7 @@ Database: mydb \
 User: myuser\
 Password: mypassword 
 
-Или напрямую зайти в БД и посмотреть через
+Или напрямую зайти в БД с помощью команды
 ```docker exec -it  <container-name> psql -U myuser -W mydb```\
 Password: mypassword
 
