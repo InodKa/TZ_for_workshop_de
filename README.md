@@ -41,7 +41,7 @@ User: myuser\
 Password: mypassword 
 
 Или напрямую зайти в БД и посмотреть через
-```docker exec -it  <container-name> psql -U myuser -W mydb```
+```docker exec -it  <container-name> psql -U myuser -W mydb```\
 Password: mypassword
 
 
