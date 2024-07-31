@@ -11,17 +11,18 @@
 
 #### Структура файлов проекта
 
-│\
-├── README.md\
-├── docker-compose.yml\
-├── Dockerfile\
-├── requirements.txt\
-│\
-├── app/\
-│   └── main.py\
-│\
-└── sql/\
-        └── init.sql\
+```
+project/
+├── README.md
+├── docker-compose.yml
+├── Dockerfile
+├── requirements.txt
+│
+├── app/
+│   └── main.py
+│
+└── sql/
+    └── init.sql
 
 ### Развертывание
 
