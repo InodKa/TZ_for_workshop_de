@@ -34,10 +34,10 @@ project/
 
 Теперь вы можете подключиться к базе данных PostgreSQL через любой SQL-клиент (например, DBeaver) со следующими параметрами:
 
-Host: localhost
-Port: 5432
-Database: mydb 
-User: myuser
+Host: localhost\
+Port: 5432\
+Database: mydb \
+User: myuser\
 Password: mypassword 
 
 
