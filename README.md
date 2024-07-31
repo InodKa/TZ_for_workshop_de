@@ -23,7 +23,7 @@ project/
 │
 └── sql/
     └── init.sql
-
+```
 ### Развертывание
 
 - Клонируйте репозиторий командой ```git clone https://github.com/InodKa/TZ_for_workshop_de```
