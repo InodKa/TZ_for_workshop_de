@@ -1,9 +1,9 @@
 CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    username VARCHAR(255) UNIQUE NOT NULL,
-    email VARCHAR(255),
-    phone VARCHAR(100),
+    name VARCHAR(50) NOT NULL,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    email VARCHAR(50),
+    phone VARCHAR(50),
     website VARCHAR(255),
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
@@ -23,8 +23,8 @@ CREATE TABLE IF NOT EXISTS posts (
 CREATE TABLE IF NOT EXISTS comments (
     id SERIAL PRIMARY KEY,
     post_id INTEGER NOT NULL,
-    name VARCHAR(255) NOT NULL,
-    email VARCHAR(255),
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(50),
     body TEXT,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (post_id) REFERENCES posts(id),
